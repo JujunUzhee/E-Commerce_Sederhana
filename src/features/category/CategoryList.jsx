@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setSelectedCategory, fetchCategories } from "./categoryslice";
+import { setSelectedCategory, fetchCategories } from "./categorySlice";
 const CategoryList = () => {
   const dispatch = useDispatch();
 
