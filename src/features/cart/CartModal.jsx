@@ -85,9 +85,9 @@ const CartModal = ({ handleHideModalCart }) => {
                       <button
                         type="button"
                         onClick={() => handleRemoveProduct(product)}
-                        className="flex h-6 w-6 items-center justify-center rounded-md bg-white hover:cursor-pointer"
+                        className="flex h-6 w-6 items-center justify-center rounded-md bg-red-600 hover:cursor-pointer"
                       >
-                        <img src={deleteIcon} alt="" />
+                        <img src={deleteIcon} alt="" className="bg-white" />
                       </button>
                     </div>
                   </div>
