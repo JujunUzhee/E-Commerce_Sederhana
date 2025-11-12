@@ -11,7 +11,7 @@ const Search = () => {
   };
   return (
     <>
-      <form className="mx-auto w-52 max-w-md">
+      <form className="mx-auto w-38 max-w-md md:w-44 lg:w-52">
         <div className="relative">
           <div className="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-3">
             <svg
@@ -35,7 +35,7 @@ const Search = () => {
             id="default-search"
             value={searchTerm}
             onChange={handleChange}
-            className="focus:ring-blue z-0 block w-full rounded-lg border border-white bg-white p-2 ps-10 text-gray-900 focus:border-blue-500"
+            className="z-0 block w-full rounded-lg border border-white bg-white p-2 ps-10 text-gray-900 focus:border-sky-500 focus:ring-2 focus:ring-sky-500 focus:outline-none"
             placeholder="Cari Produk..."
             required
           />
