@@ -19,14 +19,14 @@ const CategoryList = () => {
   };
   return (
     <>
-      <div className="w-full sm:w-auto">
+      <div className="">
         <label htmlFor="Headline">
           <select
             name="Headline"
             id="Headline"
             onChange={handleCategorySelect}
             value={selectedCategory || ""}
-            className="h-full w-full rounded border p-2 font-semibold capitalize shadow-sm hover:cursor-pointer focus:border-sky-500 focus:ring-2 focus:ring-sky-500 focus:outline-none sm:w-auto"
+            className="h-full w-full rounded border p-2 font-semibold capitalize shadow-sm hover:cursor-pointer focus:border-sky-500 focus:ring-2 focus:ring-sky-500 focus:outline-none"
           >
             <option
               value=""
